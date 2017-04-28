@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Roboto+Mono');
+
+body {
+  /* IE10+ */
+  background-image: -ms-linear-gradient(top, #FFD754 0%, #FF8754 100%);
+  /* Mozilla Firefox */
+  background-image: -moz-linear-gradient(top, #FFD754 0%, #FF8754 100%);
+  /* Opera */
+  background-image: -o-linear-gradient(top, #FFD754 0%, #FF8754 100%);
+  /* Webkit (Safari/Chrome 10) */
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFD754), color-stop(100, #FF8754));
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-linear-gradient(top, #FFD754 0%, #FF8754 100%);
+  /* W3C Markup */
+  background-image: linear-gradient(to bottom, #FFD754 0%, #FF8754 100%);
+  height: 100vh;
+  text-align: center;
+  color: #DDCA7E;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#main {
+  width: 340px;
+  height: 500px;
+  margin: 125px auto 0 auto;
+  background-color: #120A53;
+  -webkit-box-shadow: 3px 3px 12px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 3px 12px 0px rgba(0,0,0,0.75);
+  box-shadow: 3px 3px 12px 0px rgba(0,0,0,0.75);
+}
+
+#proBar {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  font-size: 10em;
+  margin: 0 auto 12px auto;
+}
+
+#alterTimes {
+  font-size: 3em;
+}
+
+div#study,
+div#break {
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 5%;
+  margin-top: 30px;
+}
+
+span#studyTime,
+span#breakTime {
+  font-size: .5em;
+}
+
+.astext {
+  background: none;
+  border: none;
+  font-size: .5em;
+}
+
+.astext:focus {
+  outline: none;
+}
+
+.timelabel {
+  color: white;
+  font-size: .5em;
+  padding-bottom: -25px;
+}
+
+button {
+  position: relative;
+  margin: 10px 4px 0 4px;
+}
+
+.mainbtn:focus {
+  outline: none;
+}
+
+.mainbtn {
+  background: #96A1A8;
+  color: white;
+  border: 0px solid transparent;
+  box-shadow: inset 0 -2.5px rgba(0, 0, 0, .25);
+  outline: none;
+}
+
+h6 {
+  margin-bottom: -20px;
+  padding: 0 4px 0 4px;
+}
+
+#footer {
+  color: #120A53;
+  position:fixed;
+  bottom:0;
+  left:0;
+  right:0;
+  height:30px;
+}
